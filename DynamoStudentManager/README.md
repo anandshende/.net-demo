@@ -21,11 +21,16 @@
 
 # Clone the code
 1. ```
-    git clone <repo>
+    git clone https://github.com/anandshende/.net-samplecode.git
+    mv .net-samplecode dotnet-samplecode
+    cd dotnet-samplecode
+    git checkout master
+
 
 # Building
 1. Build using dotnet
     ```
+    cd DynamoStudentManager
     dotnet build
 
 # Running
