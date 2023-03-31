@@ -46,7 +46,7 @@
     sudo apt install nginx
 1. Create NGINX configuration
     ```
-    sudo nano /etc/nginx/conf.d/http-3000
+    sudo nano /etc/nginx/conf.d/http-3000.conf
 1. Copy the following code
     ```
     server { # simple reverse-proxy
